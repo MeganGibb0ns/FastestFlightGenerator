@@ -249,9 +249,9 @@ public class ShortestFlightPath {
     public static void main(String[] args) {
         // load in the data for both the flights and airports
         readAirportsFromCSV(
-            "/Users/megangibbons/eclipse-workspace/Final Project CS 400/src/airports.csv");
+            "airports.csv");
         readFlightsFromCSV(
-            "/Users/megangibbons/eclipse-workspace/Final Project CS 400/src/flights.csv");
+            "flights.csv");
         Scanner scnr = new Scanner(System.in);
         String userIn = "";
         boolean search = true;
